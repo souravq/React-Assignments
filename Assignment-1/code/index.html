@@ -14,7 +14,28 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+
+const ResponseUI=({props})=>{
+  return(
+  <div className="container">
+    <div className="row first">
+      <div className="content"></div>
+      <div className="content"></div>
+     
+    </div>
+    <div className="row second">
+      <div className="content"></div>
+    </div>
+    <div className="row third">
+      <div className="content"></div>
+      <div className="content"></div>
+      <div className="content"></div>
+    </div>
+    
+  </div>
+  );
+}
+ ReactDOM.render(<ResponseUI></ResponseUI>,document.getElementById('root'));
 
 </script>
 <!--
