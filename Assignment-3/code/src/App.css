@@ -1,0 +1,41 @@
+.site-container{
+    width:auto;
+    height:auto;
+    margin:30px;
+    padding-left:300px;
+  }
+ .row{
+     width:60%;
+     height:150px;
+     background-color: lightgrey;
+     margin:5px;
+ } 
+ .customer_info .content p{
+    padding-left:20px;
+    padding-top:12px;
+  }
+  .order_info{
+      display:flex;
+  }
+  .order_info .content{
+      flex:1 1 auto;
+      margin:10px;
+  }
+  .order_info label,p{
+    display: block;
+    text-align: left;
+    
+  }
+
+  .product_list{
+    display:flex;
+}
+.product_list .content{
+    flex:1 1 auto;
+    margin:5px;
+}
+.product_list label,p{
+  display: block;
+  text-align: left;
+  
+}

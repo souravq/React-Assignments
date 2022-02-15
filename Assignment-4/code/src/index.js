@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Postview from './Postview';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 
